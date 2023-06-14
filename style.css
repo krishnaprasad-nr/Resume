@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(192, 192, 192);
+}
+#sheet_size
+{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(241, 228, 228);
+}
+
+#profile_section
+{
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(39, 37, 37);
+}
+
+#img_
+{
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.image_name_role>h2{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 18px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.image_name_role>p
+{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111, 111, 248);
+}
+
+.profile_description>h2
+{
+    color: rgb(111, 111, 248);
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.profile_description>hr
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.profile_description>p
+{
+    font-size: 12px;
+    font-family:'Chakra Petch', sans-serif;
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
