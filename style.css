@@ -9,15 +9,16 @@ body
     margin-top: 10%;
     margin-bottom: 10%;
     width: 1000px;
-    height: 1000px;
-    background-color: rgb(241, 228, 228);
+    height: 1100px;
+    background-color: rgb(245, 242, 242);
 }
 
 #profile_section
 {
     width: 300px;
-    height: 1000px;
+    height: 1100px;
     background-color: rgb(39, 37, 37);
+    float: left;
 }
 
 #img_
@@ -35,7 +36,7 @@ body
 .image_name_role>h2{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 18px;
-    color:antiquewhite;
+    color:rgb(255, 255, 255);
     text-align: center;
     margin-top: -20px;
     margin-bottom: 0px;
@@ -66,10 +67,141 @@ body
 
 .profile_description>p
 {
-    font-size: 12px;
-    font-family:'Chakra Petch', sans-serif;
+    font-size: 11px;
+    font-family: 'Roboto Mono', monospace;
     color:white;
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
+}
+
+.personal_details img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+}
+
+#location_pin
+{
+    padding-top: 20px;
+}
+
+.personal_details>p
+{
+    /* margin-bottom: 0px; */
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.work_edu_skills
+{
+    width: 700px;
+    height: 1100px;
+    margin-left: 30%;
+}
+
+.work_edu_skills img{
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 60px;
+    float: left;
+}
+
+.work_edu_skills .title_1
+{
+    margin-top: 0%;
+    padding-top: 66px;
+    padding-left: 100px;
+    font-family:'Chakra Petch', sans-serif;
+    font-weight: 900;
+    color: rgb(111, 111, 248);
+    text-transform: uppercase;
+}
+
+
+.work_edu_skills hr
+{
+    margin-left: 14%;
+    margin-right: 10%;
+}
+
+.work_edu_skills .experience_1
+{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+.work_edu_skills .experience_2
+{
+    padding-left: 33px;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+#bullet
+{
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    padding: 0%;
+    margin-left: 4%;
+    background: rgb(111, 111, 248);
+}
+#bullet_2
+{
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    padding: 0%;
+    margin-left: 7%;
+    background: rgb(111, 111, 248);
+}
+#vert_1
+{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -10px;
+    height: 135px;
+    border-left: 2px solid black;
+}
+#vert_2
+{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -10px;
+    height: 60px;
+    border-left: 2px solid black;
+}
+#desgn_1
+{
+    font-weight: 900;
+    font-size: 14px;
+}
+.company_1
+{
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: justify;
+}
+#info_1
+{
+    margin-top: 0px;
+    font-weight: normal;
 }
