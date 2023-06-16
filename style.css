@@ -9,14 +9,14 @@ body
     margin-top: 10%;
     margin-bottom: 10%;
     width: 1000px;
-    height: 1100px;
+    height: 1200px;
     background-color: rgb(245, 242, 242);
 }
 
 #profile_section
 {
     width: 300px;
-    height: 1100px;
+    height: 1200px;
     background-color: rgb(39, 37, 37);
     float: left;
 }
@@ -189,6 +189,14 @@ body
 {
     font-weight: 900;
     font-size: 14px;
+    text-transform: uppercase;
+}
+#desgn_2
+{
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
 }
 .company_1
 {
@@ -204,4 +212,47 @@ body
 {
     margin-top: 0px;
     font-weight: normal;
+}
+
+.class_prgm
+{
+    width: 300px;
+    float:left;
+}
+.prgm_skill
+{
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+}
+
+progress
+{
+    margin-left:40px;
+}
+
+.interests
+{
+    clear: left;
+    /* float: none; */
+    position: absolute;
+}
+#lines
+{
+    margin-left: 100px;
+    padding-right: 525px;
+    display: block;
+}
+
+.hobby_skill
+{
+    display: block;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
 }
